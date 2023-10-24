@@ -134,3 +134,48 @@ button {
     border-color: #2A9D8F;
 }
 
+/* section2 */
+
+.section2 {
+    width: 1180px;
+    margin: 200px auto;
+}
+
+.sec2_h2 {
+    color: #4D4D4D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.24px;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+figure {
+    width: 580px;
+    height: 346px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fig_img {
+    width: 580px;
+    height: 278px;
+}
+
+figcaption {
+    color: #535353;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.12px;
+    margin-top: 32px;
+}
+
+.fig1{
+    margin-right: 16px;
+}
