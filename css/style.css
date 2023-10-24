@@ -37,7 +37,7 @@ header {
 }
 
 /* article1 */
-article {
+.article {
     width: 780px;
     margin: 200px auto;
 }
@@ -74,5 +74,63 @@ article {
     font-weight: 400;
     line-height: 170%;
     letter-spacing: 0.2px;
+}
+
+/* section1 */
+
+.section1 {
+    width: 1440px;
+    margin: auto;
+    padding: 80px 130px;
+    background: #C2F3EE;
+}
+
+.sec1_img {
+    width: 600px;
+    height: 560px;
+    vertical-align: top;
+    margin-right: 116px;
+}
+
+.sec1_article {
+    display: inline-block;
+    vertical-align: top;
+    width: 460px;
+    height: 538px;
+}
+
+.sec1_h2 {
+    color: #272727;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    /* 150% */
+    letter-spacing: 0.16px;
+}
+
+.sec1_text1 {
+    color: #515151;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+    letter-spacing: 0.09px;
+    margin: 27px 0 45px 0;
+}
+
+button {
+    background: #2A9D8F;
+    padding: 11px 16px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-color: #2A9D8F;
 }
 
