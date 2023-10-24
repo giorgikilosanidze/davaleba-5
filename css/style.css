@@ -8,7 +8,6 @@ header {
 
 .header_logo {
     vertical-align: middle;
-    margin-right: 857px;
     width: 46px;
     height: 46px;
 }
@@ -16,6 +15,7 @@ header {
 .header_nav {
     display: inline-block;
     vertical-align: middle;
+    margin-left: 857px;
 }
 
 .header_list {
@@ -106,7 +106,6 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 48px;
-    /* 150% */
     letter-spacing: 0.16px;
 }
 
@@ -117,7 +116,6 @@ header {
     font-style: italic;
     font-weight: 400;
     line-height: 27px;
-    /* 150% */
     letter-spacing: 0.09px;
     margin: 27px 0 45px 0;
 }
@@ -176,6 +174,53 @@ figcaption {
     margin-top: 32px;
 }
 
-.fig1{
+.fig1 {
     margin-right: 16px;
+}
+
+/* footer */
+
+footer {
+    width: 1440px;
+    background: #2A9D8F;
+    padding: 90px 130px;
+    margin: auto;
+}
+
+.footer_logo {
+    width: 98px;
+    height: 98px;
+    vertical-align: top;
+    margin-right: 928px;
+}
+
+.footer_nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer_item1 {
+    margin: 21px 0 8px 0;
+}
+
+.footer_item2 {
+    margin-bottom: 8px;
+}
+
+.big_link {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.small_link {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
 }
